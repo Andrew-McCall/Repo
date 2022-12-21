@@ -22,10 +22,6 @@ ExpressDemo/   QAExpressDemo/  ReactDemo2/     ReactQuizPlayer/
 ExpressDemo2/  ReactDemo/      ReactExamples/  Repo4/
 
 andre@TALUS MINGW64 /e/Documents/Scripts/QA
-$ cd Re
-bash: cd: Re: No such file or directory
-
-andre@TALUS MINGW64 /e/Documents/Scripts/QA
 $ cd Repo4/
 
 andre@TALUS MINGW64 /e/Documents/Scripts/QA/Repo4 (main)
@@ -51,6 +47,7 @@ $ git commit -m "Updated ReadMe"
 [main e6f7b97] Updated ReadMe
  1 file changed, 4 insertions(+), 1 deletion(-)
 g
+
 andre@TALUS MINGW64 /e/Documents/Scripts/QA/Repo4 (main)
 $ git push
 Enumerating objects: 5, done.
@@ -77,24 +74,6 @@ andre@TALUS MINGW64 /e/Documents/Scripts/QA/Repo4 (David)
 $ git commit -m "changed name to david"
 [David 3857115] changed name to david
  1 file changed, 1 insertion(+), 1 deletion(-)
-g
-andre@TALUS MINGW64 /e/Documents/Scripts/QA/Repo4 (David)
-$ git puhs
-git: 'puhs' is not a git command. See 'git --help'.
-
-The most similar command is
-        push
-
-andre@TALUS MINGW64 /e/Documents/Scripts/QA/Repo4 (David)
-$ git push
-fatal: The current branch David has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream origin David
-
-To have this happen automatically for branches without a tracking
-upstream, see 'push.autoSetupRemote' in 'git help config'.
-
 
 andre@TALUS MINGW64 /e/Documents/Scripts/QA/Repo4 (David)
 $ git push -u origin David
@@ -132,17 +111,6 @@ andre@TALUS MINGW64 /e/Documents/Scripts/QA/Repo4 (Andrew)
 $ git commit -m "Full Name"
 g[Andrew 02730df] Full Name
  1 file changed, 1 insertion(+), 1 deletion(-)
-i
-andre@TALUS MINGW64 /e/Documents/Scripts/QA/Repo4 (Andrew)
-$ git push
-fatal: The current branch Andrew has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream origin Andrew
-
-To have this happen automatically for branches without a tracking
-upstream, see 'push.autoSetupRemote' in 'git help config'.
-
 
 andre@TALUS MINGW64 /e/Documents/Scripts/QA/Repo4 (Andrew)
 $ git push -u origin Andrew
